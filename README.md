@@ -51,7 +51,7 @@ curl -X POST "http://localhost:8080/contactos?email=maria.hernandez@fullmascotas
 ### Respuesta Esperada
 La API retornará un objeto JSON con la información del contacto procesada a través del pipeline.
 
-`
+``` json
 {
     "id": 1,
     "nombre": "Maria",
@@ -60,7 +60,7 @@ La API retornará un objeto JSON con la información del contacto procesada a tr
     "instagram": "@fullmascotas",
     "web": "https://fullmascotas.com"
 }
-`
+```
 
 
 ## 💡 Ejercicio Propuesto
